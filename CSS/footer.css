@@ -1,0 +1,129 @@
+footer {
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer > div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer > #contato {
+    height: 100%;
+    background: linear-gradient(180deg, rgba(103,33,207,1) 0%, rgba(123,40,242,1) 50%);
+    border-radius: 0 30px 0 0;
+}
+
+footer > #contato img {
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+footer > div > div {
+    width: 80%;
+    height: max-content;
+}
+
+footer > #contato > div > h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+footer > #contato > div > h2 {
+    font-size: 30px;
+}
+
+footer > #contato > div > a {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+footer > #copy {
+    height: 430px;
+    background-color: #2A2A2A;
+    margin-top: 120px;
+    color: #FFF;
+}
+
+footer > #copy > div > nav ul li {
+    list-style-type: none;
+    margin: 7px 0;
+}
+
+footer > #copy > div > nav ul li > a[class^='icofont'] {
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 1366px) {
+    footer {
+	height:400px;
+    }
+
+    footer > #contato img {
+	width:220px;
+    }
+
+    footer > #contato > div > h1 {
+	font-size:60px;
+    }
+
+    footer > #contato > div > h2 {
+	font-size:22px;
+    }
+
+    footer > #copy {
+	height:280px;
+    }
+
+    footer > #copy > div > img {
+	width:170px;
+	margin-top:20px;
+    }
+
+    footer > #copy > div > nav ul li > a[class^='icofont'] {
+	font-size:24px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    footer {
+        display: block;
+        height: max-content;
+    }
+
+    footer > div {
+        width: 100%;
+    }
+
+    footer > #contato {
+        border-radius: 0;
+        height: 350px;
+    }
+
+    footer > #contato img {
+        display: none;
+    }
+
+    footer > #contato > div > h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    footer > #contato > div > h2 {
+        font-size: 20px;
+    }
+
+    footer > #copy {
+        margin: 0;
+    }
+}

@@ -1,0 +1,43 @@
+input, button, .button, select, textarea {
+    border: 0;
+    outline: 0;
+}
+
+/* BUTTON */
+.button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* BUTTON COLOR */
+.btWhite {
+    background-color: white;
+}
+
+.btPurpleGradient {
+    background: linear-gradient(180deg, rgba(103,33,207,1) 0%, rgba(123,40,242,1) 50%);
+}
+
+/* BUTTON STYLE */
+.btRound {
+    border-radius: 10px;
+}
+
+/* BUTTON SIZE */
+.btMedium {
+    padding: 12px 45px 12px 45px;
+}
+
+/* INPUT COLOR*/
+.ipGrey {
+    background-color: #EBEBEB;
+}
+
+/* INPUT STYLE */
+.ipBorder {
+    border: 2px solid #CBCBCB;
+}
+
+.ipRound {
+    border-radius: 10px 0;
+}

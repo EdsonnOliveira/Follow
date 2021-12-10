@@ -1,0 +1,94 @@
+main div.divClassica {
+    margin-top: 40px;
+    align-items: initial;
+}
+
+.divClassica > div {
+    width: 50%;
+}
+
+.divClassica > div > h1 {
+    font-size: 55px;
+}
+
+.divClassica > div > h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.divClassica > div > article {
+    width: 380px;
+    height: 150px;
+    background-color: #EBEBEB;
+    border-radius: 33px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.divClassica > div > article > div:nth-child(1) {
+    width: max-content;
+    padding: 20px 5px 0 15px;
+}
+
+.divClassica > div > article > div:nth-child(2) {
+    width: calc(100% - 50px);
+}
+
+.divClassica > div > article > div > i {
+    font-size: 50px;
+}
+
+.divClassica > div > article > div > h1 {
+    margin-top: 40px;
+    font-size: 27px;
+    margin-bottom: 7px;
+}
+
+.divClassica > div > article > div > h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.divClassica > div > form > input, .divClassica > div > form > textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2A2A2A
+}
+
+.divClassica > div > form > input::placeholder, .divClassica > div > form > textarea::placeholder {
+    color: #2A2A2A
+}
+
+.divClassica > div > form > textarea {
+    height: initial;
+}
+
+.divClassica > div > form > input[type='submit'] {
+    font-weight: 500;
+    color: #FFF;
+}
+
+@media only screen and (max-width:800px) {
+    #arrow {
+        display: none;
+    }
+
+    main div.divClassica {
+        width: 99%;
+        display: block;
+        margin: 40px auto;
+    }
+
+    .divClassica > div {
+        width: 90%;
+    }
+
+    .divClassica > div:nth-child(2) {
+        margin: auto;
+    }
+}
